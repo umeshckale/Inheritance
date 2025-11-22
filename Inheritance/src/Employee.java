@@ -6,12 +6,8 @@ public class Employee {
 	String designation;
 	String address;
     double salary;	
-	public String showEmployeeDetails(){
-		@Override
-		public String toString() {
-			return "Employee [ename=" + ename + ", eid=" + eid + ", designation=" + designation + ", address=" + address
-					+ ", salary=" + salary + "]";
-		}
+	public void showEmployeeDetails(){
+		
 	
 	}	
 		
